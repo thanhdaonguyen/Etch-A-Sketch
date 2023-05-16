@@ -8,17 +8,16 @@
 <body>
 	<div class="header">
         <h1>Etch-A-Sketch</h1>
-        
-        
-        <button class="button">CLEAR</button>
+        <button class="inputbutton">CLEAR</button>
     </div>
     <div class="content">
-        <div class="panel">This is the panel</div>
-        <div class="adjustbar">this is adjust bar
-            <div class="sliderwrapper">
-                <input type="range" class="gridNumber">
-            </div>
-            
+        <div class="panel">
+                <button id="normalButton">normal</button>
+                <button id="colorButton">color</button>
+                <button id="blackerButton">blacker</button>
+        </div>
+        <div class="adjustbar">adjustbar
+            <input type="range" value='10' class="gridNumber">
             <div id="gridNumberText"></div>
         </div>
         <div class="boardpart">
