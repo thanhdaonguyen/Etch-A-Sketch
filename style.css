@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    align-items: center;
+}
+
+.content {
+    min-width: 80%;
+    max-width: 83%;
+    align-self: center;
+    display: flex;
+}
+
+.panel {
+    background-color: rgb(95, 130, 160);
+    flex-grow: 2;
+    max-width: 20%;
+}
+
+.adjustbar{
+    background-color: orange;
+    flex-grow: 1;
+    max-width: 10%;
+    
+
+}
+
+.sliderwrapper {
+    background-color: azure;
+    transform: rotate(-90deg)
+
+}
+
+.gridNumber {
+    height: 30px;
+    background-color: antiquewhite;
+    
+
+}
+
+.boardpart{
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    flex-grow: 1;
+    max-width: 70%;
+    align-items: center;
+    padding-left: 
+}
+
+.board {
+    background-color: aquamarine;
+    width: 45vw;
+    height: 45vw;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+}
+
+.boardsquare {
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    border: #ddd solid 0.01px;
+}
+
+.pixelizedsquare {
+    background-color:rgb(18, 36, 51);
+}
+
