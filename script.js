@@ -105,10 +105,6 @@ function eraserPen(node) {
 
 function createGrid(gridNumber) {
 
-    if (gridNumber < 1) gridNumber = 1;
-    if (gridNumber > 100) gridNumber = 100;
-    gridNumber = Math.floor(gridNumber);
-
     board.style.gridTemplateColumns = `repeat(${gridNumber}, 1fr)`
     board.style.gridTemplateRows = `repeat(${gridNumber}, 1fr)`
 
