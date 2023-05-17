@@ -36,8 +36,20 @@ body {
     align-items: center;
 }
 
+#paintingColor {
+    -webkit-appearance: none; /* remove the default appearance */
+    border: none; /* remove the default border */
+    width: 40px; /* set the width of the color picker */
+    height: 40px; /* set the height of the color picker */
+    border-radius: 10%; /* set the border-radius to make it circular */
+    background: #fff; /* set the background color of the color picker */
+    cursor: pointer; /* set the cursor to a pointer */
+    box-shadow: 0 0 0 2px #000; /* add a box-shadow to make it stand out */
+}
+
 .panel button {
-    height: 10%
+    height: 10%;
+    cursor: pointer;
 }
 
 .adjustbar{
